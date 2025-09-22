@@ -800,7 +800,7 @@ margin-bottom: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea-wrapper {
+.modal-field-wrap {
     margin-bottom: 16px;
 }
 
@@ -813,7 +813,7 @@ margin-bottom: 16px;
     color: #4d5ae5;
 }
 
-.modal-check{
+.modal-field-wrapper{
     margin-bottom: 24px; 
 }
 
@@ -827,9 +827,6 @@ margin-bottom: 16px;
 
 }
 
-.modal-check-wrapper{
-    margin-bottom: 24px;
-}
 
 .modal-check:checked+.modal-check-label>.modal-check-box {
     background-color: #404bbf;
@@ -846,6 +843,7 @@ margin-bottom: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
+    margin-bottom: 24px;
     fill: transparent;
     background-color: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
