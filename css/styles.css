@@ -533,7 +533,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-margin: 16px;
+margin-bottom: 16px;
 }
 
 .footer-form {
@@ -548,19 +548,23 @@ margin: 16px;
     margin: 0;
 }
 
+ .footer-email-label {
+    margin-bottom: 8px; 
+}
+
 .footer-input {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #ffffff;
-    outline: none;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -569,7 +573,7 @@ margin: 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 
@@ -700,6 +704,9 @@ margin: 16px;
     padding-left: 38px;
     padding-right: 16px;
     outline: none;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
@@ -726,7 +733,7 @@ margin: 16px;
 .modal-textarea::placeholder {
     top: 8px;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 
@@ -770,7 +777,11 @@ margin: 16px;
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+ .modal-field:nth-last-child(2) {
+    margin-bottom: 16px;
 }
 
 .input-wrapper {
@@ -785,28 +796,31 @@ margin: 16px;
     transform: translateY(-50%);
     position: absolute;
     fill: #2e2f42;
-     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-textarea{
-    margin-bottom: 16px
+.modal-textarea-wrapper {
+    margin-bottom: 16px;
+}
 
+.privacy-policy-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
 
 .modal-check-label {
     display: flex;
     align-items: center;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
 }
-
-/*.modal-check{
-    width: 16px;
-    height: 16px;
-}    */
 
 .modal-check:checked+.modal-check-label>.modal-check-box {
     background-color: #404bbf;
