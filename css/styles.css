@@ -827,6 +827,10 @@ margin-bottom: 16px;
 
 }
 
+.modal-check-wrapper{
+    margin-bottom: 24px;
+}
+
 .modal-check:checked+.modal-check-label>.modal-check-box {
     background-color: #404bbf;
     border: none;
