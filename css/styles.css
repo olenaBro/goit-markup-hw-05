@@ -703,6 +703,7 @@ margin-bottom: 16px;
     border-radius: 4px;
     padding-left: 38px;
     padding-right: 16px;
+    margin-bottom: 16px;
     outline: none;
     background-color: transparent;
     outline: transparent;
@@ -812,6 +813,10 @@ margin-bottom: 16px;
     color: #4d5ae5;
 }
 
+.modal-check{
+    margin-bottom: 24px; 
+}
+
 .modal-check-label {
     display: flex;
     align-items: center;
@@ -829,7 +834,7 @@ margin-bottom: 16px;
 }
 
 .modal-check-box {
-    display: inline-flex;
+    display: inline-flex; 
     align-items: center;
     justify-content: center;
     width: 16px;
