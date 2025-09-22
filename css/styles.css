@@ -801,7 +801,7 @@ margin-bottom: 16px;
 }
 
 .modal-field-wrap {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .privacy-policy-link {
@@ -828,14 +828,14 @@ margin-bottom: 16px;
 }
 
 
-.modal-check:checked+.modal-check-label>.modal-check-box {
+.modal-check:checked + .modal-check-label > .modal-check-box {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD; 
+    fill: #F4F4FD;
 }
 
-.modal-check-box{
-    display: inline-flex; 
+.modal-check-box {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
